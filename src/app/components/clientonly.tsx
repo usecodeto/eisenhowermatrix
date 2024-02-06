@@ -11,7 +11,7 @@ type Todoitemprops = {
 
 const deleteTask = async (id : string) => {
     try {
-        const response = await fetch(`http://localhost:3000/apis/todos?id=${id}`, {
+        const response = await fetch(`/apis/todos?id=${id}`, {
           method: 'DELETE',
         });
         console.log(response);
