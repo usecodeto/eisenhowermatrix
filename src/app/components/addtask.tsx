@@ -18,7 +18,7 @@ async function createTodo(data : FormData) {
   // reload the page via next/router
    
 
-  redirect("/new");
+  redirect("/");
   // window.location.reload();
 }
 export default async function AddTask() {
